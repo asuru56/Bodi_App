@@ -6,7 +6,7 @@
 
  body{
      background:linear-gradient(to right, rgb(67, 67, 100) , rgb(0, 0, 0)); 
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     min-height:100vh;
     overflow: hidden ; 
@@ -31,8 +31,8 @@
 
  .gradient-circle{
      background: conic-gradient(
-        #55b7a4 0%,
-        #4ca493 40%,
+        #041310 0%,
+        #000000 40%,
         #fff 40% , 
         #fff 60% , 
         #09221d 60%,
@@ -48,6 +48,7 @@
  }
 
  .circle{
+     background-image: url(./img.jpeg);
      background-color:#010f1c;
      height : 100%;
      width : 100%;
